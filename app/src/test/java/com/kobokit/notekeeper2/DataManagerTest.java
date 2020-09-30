@@ -20,9 +20,10 @@ public class DataManagerTest {
 		newNote.setTitle(noteTitle);
 		newNote.setText(noteText);
 
+//		Compare the values we have assigned in out test to the values in our app
+
 		NoteInfo compareNote = dm.getNotes().get(noteIndex);
 		assertEquals(compareNote.getCourse(), courses);
 		assertEquals(compareNote.getTitle(), noteTitle);
-		assertEquals(compareNote.getText(), noteText);
 	}
 }
