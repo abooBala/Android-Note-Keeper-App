@@ -16,6 +16,7 @@ import java.util.List;
 
 public class NoteListActivity extends AppCompatActivity {
 
+
 	private NoteInfo mNote;
 	private ArrayAdapter<NoteInfo> mAdapterNotes;
 
