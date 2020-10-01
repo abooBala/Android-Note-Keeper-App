@@ -189,6 +189,14 @@ public class DataManager {
 
         return new CourseInfo("java_core", "Java Fundamentals: The Core Platform", modules);
     }
+
+
+    public int createNewNote(CourseInfo course, String noteTitle, String noteText) {
+
+//        Failed test
+        return -1;
+
+    }
     //endregion
 
 }
