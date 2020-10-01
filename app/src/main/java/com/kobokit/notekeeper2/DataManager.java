@@ -193,10 +193,22 @@ public class DataManager {
 
     public int createNewNote(CourseInfo course, String noteTitle, String noteText) {
 
+
 //        Failed test
-        return -1;
+//        return -1;
+
+//        Passed test
+        int index = createNewNote();
+        NoteInfo note = getNotes().get(index);
+        note.setCourse(course);
+        note.setTitle(noteTitle);
+        note.setText(noteText);
+
+        return index;
 
     }
+
+
     //endregion
 
 }
